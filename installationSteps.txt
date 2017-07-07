@@ -1,0 +1,5 @@
+sudo easy_install pip
+
+sudo -H pip install tornado
+
+sudo -H pip install pathlib
