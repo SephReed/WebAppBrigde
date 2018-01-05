@@ -1,14 +1,18 @@
 import tornado.ioloop
 import tornado.web
+from lzstring import LZString
 from pathlib import Path
 import json
 import glob
 import os
 import errno
+import base64
 
 
 
 class MainHandler(tornado.web.RequestHandler):
+    
+
     def set_default_headers(self):
         self.set_header("Access-Control-Allow-Origin", "*")
   
@@ -22,17 +26,30 @@ class MainHandler(tornado.web.RequestHandler):
 
         cmd = args['cmd']
 
+        if cmd == "poke": 
+            filePath = args["filePath"]
+            out = {};
+            out["exists"] = str(os.path.exists(filePath));
+            out["isDir"] = str(os.path.isdir(filePath))
+
+            self.write(json.dumps(out))
+
         #list directory
-        if cmd == "ls": 
+        elif cmd == "ls": 
             out = []
+            requestedData = args["plzSend"];
+
             filePath = args["filePath"]
             files = glob.glob(filePath+"*")
             for file in files:
                 addMe = {
                     'name' : file,
-                    'size' : os.path.getsize(file),
                     'isDir' : str(os.path.isdir(file))
                 }
+
+                if "size" in requestedData:
+                    addMe["size"] = os.path.getsize(file)
+
                 out.append(addMe)
             
             self.write(json.dumps(out))
@@ -58,8 +75,27 @@ class MainHandler(tornado.web.RequestHandler):
 
             writeType = args["writeType"]
             data = args["data"]
-            with open(filePath, writeType) as file:
-                file.write(data)
+
+            # dataType = ""
+            # if dataType in args:
+            dataType = args["dataType"]
+
+            print(dataType);
+
+
+            if dataType == "png":
+                fullData = LZString.decompress(data)
+                print(fullData)
+                imgdata = base64.decodestring(fullData.encode())
+                # imgdata = base64.b64decode(data)
+                # imgdata = base64.b64decode())
+
+                with open(filePath, "wb") as file:
+                    file.write(imgdata)
+
+            else:
+                with open(filePath, writeType) as file:
+                    file.write(data)
 
         #get file        
         elif cmd == "get":
@@ -86,6 +122,13 @@ def make_app():
     ])
 
 if __name__ == "__main__":
+    # x = lzstring.LZString()
+    # data64 = x.decompress("▃偂༠䨎ڐ")
+    # print(data64)
+    
+
+    # my_ioloop = tornado.ioloop.IOLoop.current()
+    # my_ioloop.close(all_fds=True)
     app = make_app()
     app.listen(8528)
     tornado.ioloop.IOLoop.current().start()

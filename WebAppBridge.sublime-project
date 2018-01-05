@@ -2,7 +2,10 @@
 	"folders":
 	[
 		{
-			"path": "."
+			"path": "/Users/seph/Code/Python"
+		},
+		{
+			"path": "/Users/seph/Code/Server/ServerFileBridge"
 		}
 	]
 }

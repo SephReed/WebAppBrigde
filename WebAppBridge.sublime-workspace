@@ -4,6 +4,102 @@
 		"selected_items":
 		[
 			[
+				"re",
+				"response"
+			],
+			[
+				"reque",
+				"requestedData"
+			],
+			[
+				"bod",
+				"bodyBuffers"
+			],
+			[
+				"to",
+				"totalBufferSize"
+			],
+			[
+				"body",
+				"bodyBuffers"
+			],
+			[
+				"pt",
+				"pathname"
+			],
+			[
+				"args",
+				"argsText"
+			],
+			[
+				"arg",
+				"argsText"
+			],
+			[
+				"path",
+				"pathname"
+			],
+			[
+				"pk",
+				"pkgName"
+			],
+			[
+				"end",
+				"endsWith"
+			],
+			[
+				"pa",
+				"pathname"
+			],
+			[
+				"de",
+				"decompressed"
+			],
+			[
+				"def",
+				"defaultResponse"
+			],
+			[
+				"writ",
+				"writeType"
+			],
+			[
+				"dat",
+				"data"
+			],
+			[
+				"defa",
+				"defaultHeader"
+			],
+			[
+				"c",
+				"cmd"
+			],
+			[
+				"fil",
+				"filePath"
+			],
+			[
+				"res",
+				"response"
+			],
+			[
+				"img",
+				"imgdata"
+			],
+			[
+				"da",
+				"data64"
+			],
+			[
+				"fi",
+				"filepath"
+			],
+			[
+				"get",
+				"get_argument"
+			],
+			[
 				"chip",
 				"chipSize"
 			],
@@ -46,10 +142,6 @@
 			[
 				"set",
 				"setDrawAreaCursor"
-			],
-			[
-				"get",
-				"getTool"
 			],
 			[
 				"mouse",
@@ -96,10 +188,6 @@
 				"startY"
 			],
 			[
-				"pa",
-				"passString"
-			],
-			[
 				"getPix",
 				"getPixelCodeArgs"
 			],
@@ -132,10 +220,6 @@
 				"addMe"
 			],
 			[
-				"re",
-				"rectY"
-			],
-			[
 				"rec",
 				"rectX"
 			],
@@ -166,14 +250,6 @@
 			[
 				"pul",
 				"pullCanvas"
-			],
-			[
-				"c",
-				"canvas"
-			],
-			[
-				"to",
-				"toolName"
 			],
 			[
 				"back",
@@ -264,10 +340,6 @@
 				"clearSize"
 			],
 			[
-				"fi",
-				"fillCurrentBlock"
-			],
-			[
 				"CU",
 				"CURRENT_LAYER"
 			],
@@ -330,10 +402,6 @@
 			[
 				"bac",
 				"backgroundImage"
-			],
-			[
-				"img",
-				"imageUrl"
 			],
 			[
 				"up",
@@ -404,10 +472,6 @@
 				"expandSensor"
 			],
 			[
-				"pt",
-				"ptr2"
-			],
-			[
 				"p",
 				"ptr1"
 			],
@@ -450,83 +514,27 @@
 			[
 				"su",
 				"sumCos"
-			],
-			[
-				"sum",
-				"sumSin"
-			],
-			[
-				"sa",
-				"sample"
-			],
-			[
-				"sam",
-				"sampleLength"
-			],
-			[
-				"fre",
-				"initFreqs"
-			],
-			[
-				"co",
-				"console"
-			],
-			[
-				"cos",
-				"cosOffset"
-			],
-			[
-				"fun",
-				"function"
-			],
-			[
-				"ca",
-				"canvasWidth"
-			],
-			[
-				"Black",
-				"blackboard"
-			],
-			[
-				"border-ra",
-				"border-radius"
-			],
-			[
-				"background-c",
-				"background-color"
-			],
-			[
-				"pad",
-				"padding"
-			],
-			[
-				"margin",
-				"margin-right"
-			],
-			[
-				"i",
-				"italic"
-			],
-			[
-				"scre",
-				"Screws"
-			],
-			[
-				"screw",
-				"screwbox"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
+			"file": "/Users/seph/Code/Server/ServerFileBridge/ServerFileBridge.js",
+			"settings":
+			{
+				"buffer_size": 7586,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "test_tornado.py",
 			"settings":
 			{
-				"buffer_size": 404,
+				"buffer_size": 3333,
 				"encoding": "UTF-8",
-				"line_ending": "Unix",
-				"name": "import tornado.ioloop"
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -570,10 +578,32 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/seph/Code/Python/WebAppBrigde"
+		"/Users/seph/Code/Python",
+		"/Users/seph/Code/Python/lzstring",
+		"/Users/seph/Code/Python/WebAppBrigde",
+		"/Users/seph/Code/Server/ServerFileBridge"
 	],
 	"file_history":
 	[
+		"/Users/seph/Code/Server/ServerFileBridge/SO-BlobQ.js",
+		"/Users/seph/Code/Server/ServerFileBridge/index.html",
+		"/Users/seph/Code/Python/WebAppBrigde/test.txt",
+		"/Users/seph/Code/Python/WebAppBrigde/FLAT.Worlds/test/maps/startMap/untitled.chip-layer.txt",
+		"/Users/seph/Code/Python/WebAppBrigde/FLAT.Worlds/test/maps/startMap/base.chip-layer.txt",
+		"/Users/seph/Code/Python/WebAppBrigde/FLAT.Worlds/test/maps/startMap/first.chip-layer.txt",
+		"/Users/seph/Code/Python/WebAppBrigde/FLAT.Worlds/test/maps/startMap/startMap.map-file.txt",
+		"/Users/seph/Code/Python/WebAppBrigde/test_tornado.py",
+		"/Users/seph/Code/Python/WebAppBrigde/test.png",
+		"/Users/seph/Code/Python/lzstring/__init__.py",
+		"/Users/seph/Code/Python/WebAppBrigde/FLAT.Worlds/test/test.flat-project.txt",
+		"/Users/seph/Code/Python/WebAppBrigde/lala/findMe",
+		"/Users/seph/Code/Python/WebAppBrigde/test.flat-project.txt",
+		"/Users/seph/Code/Python/WebAppBrigde/FLAT.Worlds/maps/startMap/startMap.map-file.txt",
+		"/Users/seph/Code/Python/WebAppBrigde/test/findMe",
+		"/Users/seph/Code/Python/WebAppBrigde/lala.txt",
+		"/Users/seph/Code/Python/WebAppBrigde/test/go.txt",
+		"/Users/seph/Code/Python/WebAppBrigde/map.txt",
+		"/Users/seph/Code/Python/WebAppBrigde/installationSteps.txt",
 		"/Users/seph/Code/Web/SephReed.github.io/PINE/PINE_Includes.js",
 		"/Users/seph/Code/Web/SephReed.github.io/PINE/PINE_Core_4.8.js",
 		"/Users/seph/Code/Web/SephReed.github.io/portfolio/portfolio_coding.html",
@@ -682,30 +712,11 @@
 		"/Users/seph/Code/Web/SephReed.github.io/RobotSoul/devices/basic/RackHeader.html",
 		"/Users/seph/Code/Web/SephReed.github.io/RobotSoul/modules/deviceBrowser.html",
 		"/Users/seph/Code/Web/SephReed.github.io/RobotSoul/devices/XBricks.html",
-		"/Users/seph/Code/Web/SephReed.github.io/RobotSoul/devices/basic/Modulus.html",
-		"/Users/seph/Code/Web/SephReed.github.io/RobotSoul/devices/MidiFreq.html",
-		"/Users/seph/Code/Web/SephReed.github.io/RobotSoul/devices/basic/Knob.html",
-		"/Users/seph/Code/Web/SephReed.github.io/PINE/tests/templateTest.html",
-		"/Users/seph/Code/Web/SephReed.github.io/PINE/PINE_Needles.js",
-		"/Users/seph/Code/Web/SephReed.github.io/RobotSoul/devices/BasicAnalogSynth.html",
-		"/Users/seph/Code/Web/SephReed.github.io/RobotSoul/devices/basic/Oscillator.html",
-		"/Users/seph/Code/Web/SephReed.github.io/RobotSoul/devices/basic/RackIO.html",
-		"/Users/seph/Code/Web/SephReed.github.io/RobotSoul/RobotSoul_IOHelper.js",
-		"/Users/seph/Code/Web/SephReed.github.io/RobotSoul/devices/basic/Gain.html",
-		"/Users/seph/Code/Web/SephReed.github.io/RobotSoul/RobotSoul_Devices.js",
-		"/Users/seph/Code/Web/SephReed.github.io/RobotSoul/RobotSoul.js",
-		"/Users/seph/Code/Web/SephReed.github.io/PINE/needles/hotkeys.html",
-		"/Users/seph/Code/Web/SephReed.github.io/RobotSoul/RobotSoul_DeviceRack.js",
-		"/Users/seph/Code/Web/SephReed.github.io/PINE/tests/selectableListTest.html",
-		"/Users/seph/Code/Web/SephReed.github.io/PINE/needles/boxSelectArea.html",
-		"/Users/seph/Code/Web/SephReed.github.io/RobotSoul/modules/topbar.html",
-		"/Users/seph/Code/Web/SephReed.github.io/PINE/tests/hotKeyTest.html",
-		"/Users/seph/Code/Web/SephReed.github.io/PINE/tests/nodeAddListenTest.html",
-		"/Users/seph/Code/Web/SephReed.github.io/barter/index.html"
+		"/Users/seph/Code/Web/SephReed.github.io/RobotSoul/devices/basic/Modulus.html"
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -725,6 +736,14 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"defaultRes",
+			"data",
+			"filePath",
+			"args.filePath",
+			"qs",
+			"resetValue",
+			"32768",
+			"<",
 			"selectedCh",
 			"url('",
 			"')",
@@ -844,15 +863,7 @@
 			"PINE.up",
 			"for(var",
 			"inits",
-			"view",
-			"complete",
-			"pnv",
-			"complete",
-			"instance",
-			"items",
-			".then",
-			" Promise",
-			"p_cable"
+			"view"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -860,6 +871,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"pathname",
 			"",
 			"bgImgSrc",
 			"palletteArea",
@@ -986,8 +998,7 @@
 			"searchable_subObject",
 			"\\n\\n",
 			"",
-			"showChoices",
-			"bubbleSelect"
+			"showChoices"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -1003,31 +1014,66 @@
 			[
 				{
 					"buffer": 0,
-					"file": "test_tornado.py",
+					"file": "/Users/seph/Code/Server/ServerFileBridge/ServerFileBridge.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 404,
+						"buffer_size": 7586,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								186,
-								186
+								151,
+								151
 							]
 						],
 						"settings":
 						{
-							"auto_name": "import tornado.ioloop",
-							"syntax": "Packages/Python/Python.sublime-syntax"
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"file": "/Users/seph/Code/Server/ServerFileBridge/test.png",
+					"semi_transient": false,
+					"stack_index": 1,
+					"type": "image"
+				},
+				{
+					"buffer": 1,
+					"file": "test_tornado.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3333,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 35.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -1072,7 +1118,7 @@
 	"project": "WebAppBridge.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 64.0
 	},
 	"save_all_on_build": true,
 	"select_file":
